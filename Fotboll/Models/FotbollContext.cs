@@ -11,5 +11,6 @@ namespace Fotboll.Models
 	{
 		public DbSet<Arena> Arena { get; set; }
 		public DbSet<Team> Teams { get; set; }
+		public DbSet<Player> Players { get; set; }
 	}
 }

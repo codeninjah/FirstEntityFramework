@@ -53,9 +53,18 @@
     <Compile Include="Migrations\201711271202428_första uppladdningen.Designer.cs">
       <DependentUpon>201711271202428_första uppladdningen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711290923561_player.cs" />
+    <Compile Include="Migrations\201711290923561_player.Designer.cs">
+      <DependentUpon>201711290923561_player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711290941464_klar.cs" />
+    <Compile Include="Migrations\201711290941464_klar.Designer.cs">
+      <DependentUpon>201711290941464_klar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Arenas.cs" />
     <Compile Include="Models\FotbollContext.cs" />
+    <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Teams.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +76,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201711271202428_första uppladdningen.resx">
       <DependentUpon>201711271202428_första uppladdningen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711290923561_player.resx">
+      <DependentUpon>201711290923561_player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711290941464_klar.resx">
+      <DependentUpon>201711290941464_klar.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
